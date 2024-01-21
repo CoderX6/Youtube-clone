@@ -1,0 +1,141 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page{
+    display: flex;
+}
+.logo{
+    height: 30px;
+}
+.icon{
+    font-size: 30px;
+}
+.left{
+    display: flex;
+    gap: 15px;
+}
+.search-box{
+    height: 30px;
+    width: 400px;
+    border: 1px solid lightgray;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+}
+.search-icon{
+    font-size: 20px;
+    border: 1px solid lightgray;
+    width: 20px;
+    padding: 2.8px 20px;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.search{
+    display: flex;
+}
+.header-icons{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.header-icon :hover{
+    background-color: lightgray;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-logo{
+    height: 60px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-right: 15px;
+    position: sticky;
+    top: 0;
+    
+    background: #ffffff;
+}
+.nav{
+    width: 90px;
+    
+    
+    
+    position: sticky;
+    top: 22px;
+}
+.menu{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+.nav-icon{
+    font-size: 25px;
+}
+.navigator{
+    text-align: center;
+    margin-top: 25px;
+}
+.suggesion{
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+}
+.suggesion-box :hover{
+    background-color: lightgray;
+}
+.top{
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 50px;
+    background-color: #ffffff;
+}
+
+.video{
+    width: 340px;
+    height: 300px;
+    
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.at :hover{
+    border-radius: 0;
+}
+.youtuber-logo{
+    border-radius: 50%;
+    width: 45px;
+}
+.description{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.lightgray{
+    color:gray;
+    margin-top: 2px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
